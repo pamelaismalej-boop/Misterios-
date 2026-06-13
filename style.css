@@ -1,0 +1,233 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:cursive;
+}
+
+body{
+    background:#fff8f8;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:#814f2d;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+nav{
+    background:#5f4322;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#000000;
+}
+
+.titulo-1{
+    text-align: center;
+}
+.titulo_p{
+    width:100%;
+ 
+
+}
+
+
+.titulo_p > img{
+    width:100%;
+    display:block;
+    margin:20px;
+    border-radius:10px;
+}
+
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+    margin-top:30px;
+}
+
+.card{
+    background:white;
+    width:350px;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 4px 10px rgba(0,0,0,0.15);
+    transition:0.3s;
+}
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card-content{
+    padding:15px;
+}
+
+.card-content h3{
+    margin-bottom:10px;
+    color:#814e02;
+    text-align:center;
+}
+
+.card-content p{
+    text-align:justify;
+    margin-bottom:15px;
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:8px;
+}
+
+footer{
+    background:#5f4322;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+button{
+    background:#2c7a7b;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+   background:#1d4f50;
+}
+
+/*Formulario*/
+.titulo-formulario{
+    color: #814f2d;
+    text-align: center;
+    font-size: 90px;
+}
+.descripcion-formulario{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.content-form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+form{
+    width: 60%;
+    background-color: #a38766;
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+form:hover{
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+}
+label{
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+input, textarea, select, button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+textarea{
+    resize: none;
+}
+
+input:hover, textarea:hover, select:hover{
+    background-color: rgb(253, 242, 191);
+}
+button{
+    background-color: #814f2d;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+button:hover{
+    background-color: #000000;
+    color: white;
+}
+.label-casilla{
+    display: flex;
+    align-items: center;
+}
+input[type="checkbox"]{
+    width: 30px;
+    cursor: pointer;
+}
+
+/*p3*/
+ul{
+    padding: 10px;
+    margin: 30px;
+}
+.ilustración{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.ilustración img{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    margin: 15px;
+    border-radius: 15px;
+    border: 4px solid rgb(129, 81, 18);
+    transition: 0.5s;
+}
+.ilustración img:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px rgb(129, 81, 18);
+}
+.ilustración-2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.ilustración-2 img{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    margin: 15px;
+    border-radius: 15px;
+    border: 4px solid rgb(80, 50, 10);
+    transition: 0.5s;
+}
+.ilustración-2 img:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px rgb(80, 50, 10);
+}
+.card-teoria{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 4px 15px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.card-teoria:hover{
+    transform:translateY(-5px);
+}
+
